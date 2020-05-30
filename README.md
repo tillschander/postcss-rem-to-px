@@ -1,6 +1,6 @@
 # PostCSS Rem To Px
 
-[PostCSS] plugin to replace all rem values with px values..
+[PostCSS] plugin to replace all rem values with px values.
 
 [PostCSS]: https://github.com/postcss/postcss
 
