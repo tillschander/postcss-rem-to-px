@@ -6,13 +6,17 @@
 
 ```css
 .foo {
-    /* Input example */
+  /* Input example */
+  font-size: 1rem;
+  margin: 1rem 0 .5rem 0;
 }
 ```
 
 ```css
 .foo {
   /* Output example */
+  font-size: 16px;
+  margin: 16px 0 8px 0;
 }
 ```
 
@@ -27,7 +31,7 @@ If you already use PostCSS, add the plugin to plugins list:
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-rem-to-px'),
++   require('postcss-rem-to-px', { baseSize: 16 }),
     require('autoprefixer')
   ]
 }
