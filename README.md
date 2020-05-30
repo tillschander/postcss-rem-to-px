@@ -31,7 +31,7 @@ If you already use PostCSS, add the plugin to plugins list:
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-rem-to-px', { baseSize: 16 }),
++   require('postcss-rem-to-px')({ baseSize: 16 }),
     require('autoprefixer')
   ]
 }
